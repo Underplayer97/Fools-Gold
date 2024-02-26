@@ -1,0 +1,26 @@
+{
+  "grim_demoman": {
+    "subtitle": "subtitles.foolsgold.grim_demoman",
+    "sounds": [
+      "foolsgold:grim_demoman"
+    ]
+  },
+  "jonathan_rizz": {
+    "subtitle": "subtitles.foolsgold.jonathan_rizz",
+    "sounds": [
+      "foolsgold:jonathan_rizz"
+    ]
+  },
+  "under_scream": {
+    "subtitle": "subtitles.foolsgold.under_scream",
+    "sounds": [
+      "foolsgold:under_scream"
+    ]
+  },
+  "frizz_skeppy": {
+    "subtitle": "subtitles.foolsgold.frizz_skeppy",
+    "sounds": [
+      "foolsgold:frizz_skeppy"
+    ]
+  }
+}
