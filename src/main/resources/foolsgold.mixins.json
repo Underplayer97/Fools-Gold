@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.underplayer97.foolsgold.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"FoolsGoldMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
