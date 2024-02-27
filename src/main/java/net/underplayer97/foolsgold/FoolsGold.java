@@ -2,12 +2,14 @@ package net.underplayer97.foolsgold;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.underplayer97.foolsgold.blocks.ModBlocks;
-import net.underplayer97.foolsgold.items.ModItemGroups;
-import net.underplayer97.foolsgold.items.ModItems;
+import net.underplayer97.foolsgold.block.ModBlocks;
+import net.underplayer97.foolsgold.block.entity.ModBlockEntities;
+import net.underplayer97.foolsgold.item.ModItemGroups;
+import net.underplayer97.foolsgold.item.ModItems;
 import net.underplayer97.foolsgold.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib.GeckoLib;
 
 public class FoolsGold implements ModInitializer {
 
@@ -20,12 +22,13 @@ public class FoolsGold implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerAllBlockEntities();
 
 		ModSounds.registerSounds();
 
 		ModItemGroups.registerItemGroup();
 
-
+		GeckoLib.initialize();
 
 	}
 }

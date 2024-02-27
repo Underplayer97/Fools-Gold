@@ -1,4 +1,4 @@
-package net.underplayer97.foolsgold.items;
+package net.underplayer97.foolsgold.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -9,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.underplayer97.foolsgold.FoolsGold;
-import net.underplayer97.foolsgold.blocks.ModBlocks;
+import net.underplayer97.foolsgold.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -18,9 +18,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.foolsgold"))
                     .icon(() -> new ItemStack(Items.BARRIER)).entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.GRIM_PLUSHIE);
-                        entries.add(ModBlocks.UNDER_PLUSHIE);
-                        entries.add(ModBlocks.JONATHAN_PLUSHIE);
-                        entries.add(ModBlocks.FRIZZ_PLUSHIE);
+                        //entries.add(ModBlocks.UNDER_PLUSHIE);
+                        //entries.add(ModBlocks.JONATHAN_PLUSHIE);
+                        //entries.add(ModBlocks.FRIZZ_PLUSHIE);
 
                     })).build());
 

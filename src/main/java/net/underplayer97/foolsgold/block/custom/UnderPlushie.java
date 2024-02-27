@@ -1,4 +1,4 @@
-package net.underplayer97.foolsgold.blocks.custom;
+package net.underplayer97.foolsgold.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
