@@ -16,11 +16,11 @@ public class ModItemGroups {
     public static final ItemGroup FOOLSGOLD = Registry.register(Registries.ITEM_GROUP,
             new Identifier(FoolsGold.MOD_ID, "foolsgold"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.foolsgold"))
-                    .icon(() -> new ItemStack(Items.BARRIER)).entries(((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.GRIM_PLUSHIE)).entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.GRIM_PLUSHIE);
-                        //entries.add(ModBlocks.UNDER_PLUSHIE);
-                        //entries.add(ModBlocks.JONATHAN_PLUSHIE);
-                        //entries.add(ModBlocks.FRIZZ_PLUSHIE);
+                        entries.add(ModBlocks.UNDER_PLUSHIE);
+                        entries.add(ModBlocks.JONO_PLUSHIE);
+                        entries.add(ModBlocks.FRIZZ_PLUSHIE);
 
                     })).build());
 
