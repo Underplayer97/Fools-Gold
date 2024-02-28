@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#",
+    "BNB",
+    "WDW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "foolsgold:grim_plushie",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "#F#",
+    "LNL",
+    "WDW"
+  ],
+  "result": {
+    "item": "foolsgold:under_plushie"
+  }
+}

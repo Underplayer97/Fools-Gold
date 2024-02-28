@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#",
+    "PNP",
+    "MDM"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "M": {
+      "item": "minecraft:magenta_wool"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "foolsgold:frizz_plushie",
+    "count": 1
+  }
+}

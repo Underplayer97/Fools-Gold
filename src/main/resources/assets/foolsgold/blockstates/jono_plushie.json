@@ -1,7 +1,13 @@
 {
   "variants": {
     "": {
-      "model": "foolsgold:block/plushie_base"
+      "model": "foolsgold:block/plushie_base",
+      "variants": {
+        "facing=north": { "model": "foolsgold:block/plushie_base", "uvlock": true },
+        "facing=east":  { "model": "foolsgold:block/plushie_base", "y":  90, "uvlock": true },
+        "facing=south": { "model": "foolsgold:block/plushie_base", "y": 180, "uvlock": true },
+        "facing=west":  { "model": "foolsgold:block/plushie_base", "y": 270, "uvlock": true }
+      }
     }
   }
 }
