@@ -2,12 +2,18 @@ package net.underplayer97.foolsgold.block.custom;
 
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.enums.Instrument;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
+import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.underplayer97.foolsgold.block.entity.GrimPlushieEntity;
 import net.underplayer97.foolsgold.block.entity.JonoPlushieEntity;
@@ -20,14 +26,13 @@ public class JonoPlushie extends BlockWithEntity {
         super(settings);
     }
 
+
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos,
                               PlayerEntity player, Hand hand, BlockHitResult hit) {
         world.playSound(player, pos, ModSounds.JONATHAN_RIZZ, SoundCategory.BLOCKS, 1f, 1f);
         return ActionResult.SUCCESS;
     }
-
-
 
 
     @Nullable
